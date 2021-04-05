@@ -1,0 +1,34 @@
+{
+  "tests": [
+    {
+      "name": "Test: Problem 1a / f_qmhosc",
+      "setup": "sudo -H pip3 install pytest numpy matplotlib scipy",
+      "run": "pytest --tb=short tests/problem_1a/test_f_qmhosc.py",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 4
+    },
+    {
+      "name": "Test: Problem 1a / ode_qmhosc",
+      "setup": "sudo -H pip3 install pytest numpy matplotlib scipy",
+      "run": "pytest --tb=short tests/problem_1a/test_ode_qmhosc.py",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 8
+    },
+    {
+      "name": "Test: Problem 1a / plot_even_n",
+      "setup": "sudo -H pip3 install pytest numpy matplotlib scipy",
+      "run": "pytest --tb=line tests/problem_1a/test_plot_even_n.py",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 3
+    }
+  ]
+}
