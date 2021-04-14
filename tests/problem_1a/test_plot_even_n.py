@@ -9,7 +9,7 @@ import pytest
 from ..tst import _test_imagefile
 
 FILENAME = 'qmhosc.png'
-POINTS = 3
+POINTS = 6
 
 def test_plot_even_n():
     return _test_imagefile(FILENAME)

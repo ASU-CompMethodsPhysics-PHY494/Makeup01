@@ -9,7 +9,7 @@ import pytest
 from ..tst import _test_function
 
 FILENAME = 'makeup01.py'
-POINTS = 4
+POINTS = 8
 
 @pytest.mark.parametrize(("args", "kwargs", "reference"),
                          list(zip([[0.0, [1.0, 0.0], 0.5], [0.0, [1.0, 0.0], 2.5], [2.5, [1.0, 0.0], 8.5], [0.0, [0, 1.0], 1.5], [0.0, [0.0, 1.0], 3.5], [1.5, [0.0, 1.0], 3.5]], [{}, {}, {}, {}, {}, {}], [[0, -1.0], [0, -5.0], [0, -10.75], [1.0, 0.0], [1.0, 0.0], [1.0, 0.0]])))
